@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+  font-size: 5rem;
+  animation: rave 1s infinite;
+}
+
+@keyframes rave {
+  0% { color: white; }
+  25% { color: yellow; }
+  50% { color: cyan; }
+  75% { color: magenta; }
+  100% { color: white; }
+}
+</style>
+</head>
+<body>
+<h1>Mellandagsrejva</h1>
+</body>
+</html>
